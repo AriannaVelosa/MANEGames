@@ -1,0 +1,128 @@
+/* 
+    Authors: Arianna Velosa, Michelle Ramos-Hernandez, Emma Elliot, Noelle Stewart-Healey
+
+    This file has the css that makes the ttt.html look organized.
+    It gives it changes the background color, makes the board and the rules on the left
+    and right, makes the back button styled, has the main website header, and 
+    styles the new game and back button
+*/
+
+body {
+    background-color: palevioletred;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+    font-family: "Arial";
+}
+
+h1 {
+    text-align: center;
+  
+}
+#backButton{
+       display: inline-block;
+       margin-top:140px;
+       width:60px;
+       height:40px;
+       border-radius: 8px;
+       background-color: #FC6C85;
+}
+.header {
+    background-color: #1c4963;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 0px;
+    color: white;
+    top: 0px;
+    left:0px;
+    margin-top: 0px;
+    position:absolute;
+    width:100%;
+    font-size: 60px;
+    border-bottom: solid 3px white;
+}
+h3{
+   display:inline-block;
+   margin-left:40%;
+margin-top:110px;
+
+/*square of the ttt board*/
+}
+td {
+    width: 120px;
+    height: 120px;
+    border: 3px solid maroon;
+    background-color: pink;
+}
+
+/*full ttt board*/
+table {
+    text-align: center;
+    font-family: monospace;
+    display: inline-block;
+    font-size: 100px;
+    top: 29%;
+    margin-left: 56%;
+    margin-top:45px;
+    position: fixed;
+    border: 3px solid maroon;
+}
+
+#rulesDiv {
+    display: inline-block;
+    position: fixed;
+    height: 380px;
+    width: 380px;
+    top: 30%;
+    margin-top:40px;
+    text-align: center;
+    text-overflow: wrap;
+    margin-left:0%;
+    left: 20%;
+    border: 3px solid maroon;
+    background-color: #FC6C85;
+
+}
+
+#topP {
+    padding-top: 30px;
+}
+
+#label {
+    text-align: center;
+    margin-top:0;
+    background-color: #FC6C85;
+    border: 3px solid maroon;
+    width:400px;
+    height:20px;
+    margin-left:37%;
+   visibility:hidden;
+}
+
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*
+*/
+#score{
+    text-align: center;
+    background-color: #FC6C85;
+    border: 3px solid maroon;
+    width:200px;
+    height:20px;
+    margin-left:44%;
+  
+}
+
+#newGame {
+    width: 100px;
+    height: 30px;
+    margin-left: 48%;
+    margin-top: 10px;
+    display: block;
+    position: relative;
+    background-color: plum;
+    font-family: cursive;
+}

@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    position: block;
+    background-color: rgb(242, 108, 94);
+}
+
+#allInfo{
+    padding: 15px;
+    font-size: 30px;
+    
+}
+
+#backButton{
+    position: fixed;
+    top:0;
+    left:0;
+    padding: 5px;
+    color:rgb(255, 255, 255);
+    background-color: black;
+}

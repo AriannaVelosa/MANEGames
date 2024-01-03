@@ -1,0 +1,113 @@
+/*  Authors: Arianna Velosa, Michelle Ramos-Hernandez, Emma Elliot, Noelle Healey-Stewart
+This css will create the style 
+of the profile page */
+
+#column1 {
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    background-color:#fcc203;
+    top: 0;
+    left: 0;
+}
+
+#column2 {
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    top: 0;
+    left: 50vw;
+    background-color: #286bbd;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#row1 {
+    height: 25vh;
+    position: relative;
+    background-color: aliceblue;
+    margin-top: -15px;
+}
+
+#row2 {
+    height: 75vh;
+    position: 75vh;
+    margin-block: 50px;
+}
+
+#followersButton {
+    display: block;
+    margin: 40px;
+    background-color: #3775f0;
+    height: 50px;
+    width:fit-content;
+    font-size: 20px;
+}
+
+#statsButton {
+    display: block;
+    margin: 40px;
+    background-color: lightsalmon;
+    height: 50px;
+    width:150px;
+    font-size: 20px;
+}
+
+#followingButton {
+    display: block;
+    margin: 40px;
+    background-color: lightblue;
+    height: 50px;
+    width:fit-content;
+    font-size: 20px;
+}
+
+#help {
+    display: block;
+    margin: 40px;
+    background-color: orange;
+    height: 50px;
+    width:150px;
+    font-size: 20px;
+}
+
+#logout {
+    display: block;
+    margin: 40px;
+    background-color: #43ace8;
+    height: 50px;
+    width:150px;
+    font-size: 20px;
+}
+/* 
+#changePassword {
+    display: block;
+    margin: 40px;
+    background-color: #f5c264;
+    height: 50px;
+    width:fit-content;
+    font-size: 17px;
+
+} */
+
+#avatar {
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+#username {
+    margin-left: 150px;
+    top: 60px;
+    font-size: 22px;
+    position: absolute;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+
+
